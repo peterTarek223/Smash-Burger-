@@ -30,6 +30,8 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: row;
+    
 }
 section{
     display: inline-block;
@@ -109,11 +111,11 @@ img{
 }
 .back-french {
     position: absolute;
-      width: 100px; /* حجم الصورة */
+      width: 100px; 
     height: auto;
     z-index: -3;
     }
-@media (max-width: 1380px) {
+@media (max-width: 1280px) {
     .itam{
         justify-content: space-around;
     }
